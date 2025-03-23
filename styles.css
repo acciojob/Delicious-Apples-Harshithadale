@@ -1,1 +1,43 @@
 /* your code here */
+.product{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.photo-main{
+	background-color:yellowgreen;
+	width:300px;
+	height:400px;
+}
+.photo-album > ul{
+	display:flex;
+	list-style:none;
+	width:300px;
+	justify-content:space-between;
+}
+.photo-album{
+	position:relative;
+	right:40px;
+	bottom:16px;
+	background-color:green;
+}
+.photo-album>ul>li{
+	margin:5px;
+	border:1px solid black;
+}
+.photo-album>ul>li>img{
+	width:50px;
+}
+.photo-main img{
+	position:relative;
+	right:40px;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+}
+.controls > i{
+	color:white;
+	margin:3px;
+}
