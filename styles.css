@@ -7,6 +7,13 @@
 	position:relative;
 	height:800px;
 }
+.description>button{
+	background-color:red;
+	padding:10px;
+	border-radius:10px;
+	border-style:none;
+	color:white;
+}
 .product__photo{
 	position:relative;
 	background-color:white;
