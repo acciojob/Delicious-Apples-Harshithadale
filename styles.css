@@ -1,33 +1,45 @@
 /* your code here */
 .product{
 	display:flex;
-	flex-direction:column;
 	justify-content:center;
 	align-items:center;
+	background-color:green;
+	position:relative;
+	height:800px;
+}
+.product__photo{
+	position:relative;
+	background-color:white;
+	width:280px;
+	top:62px;
+	height:515px;
+}
+.variant > ul {
+	display:flex;
+	list-style-type:none;
+	position:relative;
+	right:40px;
+}
+.variant > ul>li{
+	border:1px solid grey;
+	margin:2px;
 }
 .photo-main{
 	background-color:yellowgreen;
 	width:300px;
 	height:400px;
-}
-.photo-album > ul{
-	display:flex;
-	list-style:none;
-	width:300px;
-	justify-content:space-between;
-}
-.photo-album{
 	position:relative;
+	top:50px;
 	right:40px;
-	bottom:16px;
-	background-color:green;
 }
-.photo-album>ul>li{
-	margin:5px;
-	border:1px solid black;
+.price {
+	color:red;
 }
-.photo-album>ul>li>img{
-	width:50px;
+.price > span{
+	font-size:40px;
+}
+.title > span{
+	color:grey;
 }
 .photo-main img{
 	position:relative;
@@ -39,5 +51,35 @@
 }
 .controls > i{
 	color:white;
-	margin:3px;
+	margin:5px;
+}
+.photo-album > ul{
+	display:flex;
+	width:300px;
+	box-sizing:border-box;
+	list-style:none;
+	padding:20px;
+}
+.photo-album > ul >li>img{
+	width:40px;
+	padding:8px;
+	border:1px solid black;
+	margin:5px;
+}
+.photo-album{
+	position:relative;
+	background-color:ghostwhite;
+	bottom:20px;
+	right:40px;
+	width:300px;
+}
+.product__info{
+	background-color:white;
+	padding:8px;
+	width:300px;
+	display:flex;
+	flex-direction:column;
+	height:500px;
+	position:relative;
+	top:63px;
 }
